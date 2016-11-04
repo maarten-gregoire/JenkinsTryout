@@ -1,0 +1,11 @@
+def gitUrl = 'https://github.com/maarten-gregoire/JenkinsTryout'
+
+stage('Git Clone') {
+    node {
+        gitClone(gitUrl)
+    }
+}
+
+def gitClone(gitUrl) {
+    git changelog: false, url: gitUrl
+}
