@@ -6,6 +6,6 @@ package JenkinsTryout;
 public class JenkinsTryout {
     public void main (String[] args){
         System.out.println("HELLO!");
-        
+        System.out.println("Hello2");
     }
 }
